@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio de Koné Mohamed, Développeur Web Front-End.">
+
+    <title>Koné Mohamed | Développeur Web Front-End</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         CONTRÔLES CSS : THÈME + LANGUE
+    ====================================================== -->
+
+    <input type="checkbox" id="theme-toggle" class="theme-toggle">
+
+    <input type="checkbox" id="language-toggle" class="language-toggle">
+
+
+    <div class="site-wrapper">
+
+        <!-- =================================================
+             HEADER
+        ================================================== -->
+
+        <header class="header">
+
+            <nav class="navbar container">
+
+                <a href="#home" class="logo" aria-label="Accueil Koné Mohamed">
+                    <span>&lt;</span>KM<span>/&gt;</span>
+                </a>
+
+
+                <ul class="nav-links">
+
+                    <li>
+                        <a href="#home">
+                            <span class="fr">Accueil</span>
+                            <span class="en">Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about">
+                            <span class="fr">À propos</span>
+                            <span class="en">About</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills">
+                            <span class="fr">Compétences</span>
+                            <span class="en">Skills</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">
+                            <span class="fr">Projets</span>
+                            <span class="en">Projects</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#journey">
+                            <span class="fr">Parcours</span>
+                            <span class="en">Journey</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            <span class="fr">Contact</span>
+                            <span class="en">Contact</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <div class="nav-actions">
+
+                    <!-- LANGUE -->
+
+                    <label for="language-toggle"
+                           class="language-button"
+                           aria-label="Changer la langue">
+
+                        <span class="language-fr">FR</span>
+                        <span class="language-en">EN</span>
+
+                    </label>
+
+
+                    <!-- THÈME -->
+
+                    <label for="theme-toggle"
+                           class="theme-button"
+                           aria-label="Changer le thème">
+
+                        <span class="sun">☀</span>
+                        <span class="moon">☾</span>
+
+                    </label>
+
+                </div>
+
+            </nav>
+
+        </header>
+
+
+        <main>
+
+
+            <!-- =============================================
+                 ACCUEIL
+            ============================================== -->
+
+            <section class="hero" id="home">
+
+                <div class="hero-background">
+
+                    <div class="grid"></div>
+
+                    <div class="glow glow-1"></div>
+                    <div class="glow glow-2"></div>
+
+                    <span class="floating-code code-1">&lt;/&gt;</span>
+                    <span class="floating-code code-2">{ }</span>
+                    <span class="floating-code code-3">01</span>
+
+                </div>
+
+
+                <div class="container hero-content">
+
+                    <!-- TEXTE -->
+
+                    <div class="hero-text">
+
+                        <p class="hero-small">
+                            <span class="status-dot"></span>
+
+                            <span class="fr">
+                                Disponible pour apprendre et créer
+                            </span>
+
+                            <span class="en">
+                                Available to learn and create
+                            </span>
+                        </p>
+
+
+                        <h1>
+
+                            <span class="fr">Bonjour, je suis</span>
+                            <span class="en">Hello, I'm</span>
+
+                            <strong>Koné Mohamed</strong>
+
+                        </h1>
+
+
+                        <h2>
+                            <span class="fr">
+                                Développeur Web
+                                <span class="highlight">Front-End.</span>
+                            </span>
+
+                            <span class="en">
+                                Front-End
+                                <span class="highlight">Web Developer.</span>
+                            </span>
+                        </h2>
+
+
+                        <p class="hero-description">
+
+                            <span class="fr">
+                                Je transforme mes idées en expériences numériques.
+                                Passionné par le développement web et les nouvelles
+                                technologies, je cherche constamment à apprendre,
+                                expérimenter et progresser.
+                            </span>
+
+                            <span class="en">
+                                I transform my ideas into digital experiences.
+                                Passionate about web development and new
+                                technologies, I constantly seek to learn,
+                                experiment and improve.
+                            </span>
+
+                        </p>
+
+
+                        <div class="hero-buttons">
+
+                            <a href="#projects" class="btn btn-primary">
+
+                                <span class="fr">Voir mes projets</span>
+                                <span class="en">View my projects</span>
+
+                                <span>→</span>
+
+                            </a>
+
+
+                            <a href="assets/cv.pdf"
+                               class="btn btn-secondary"
+                               download>
+
+                                <span>↓</span>
+
+                                <span class="fr">Télécharger mon CV</span>
+                                <span class="en">Download my CV</span>
+
+                            </a>
+
+                        </div>
+
+
+                        <div class="hero-socials">
+
+                            <a href="https://github.com/momo8464"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               aria-label="GitHub">
+
+                                GitHub
+
+                            </a>
+
+
+                            <span></span>
+
+
+                            <a href="mailto:konemhd2003@gmail.com">
+
+                                Email
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHOTO -->
+
+                    <div class="hero-image">
+
+                        <div class="image-orbit orbit-1"></div>
+                        <div class="image-orbit orbit-2"></div>
+
+                        <div class="image-frame">
+
+                            <img
+                                src="images/profil.png"
+                                alt="Photo de Koné Mohamed">
+
+                        </div>
+
+
+                        <div class="tech-card card-top">
+
+                            <span class="tech-icon">&lt;/&gt;</span>
+
+                            <div>
+                                <strong>Front-End</strong>
+                                <small>HTML • CSS</small>
+                            </div>
+
+                        </div>
+
+
+                        <div class="tech-card card-bottom">
+
+                            <span class="online-dot"></span>
+
+                            <div>
+
+                                <strong class="fr">Toujours en apprentissage</strong>
+                                <strong class="en">Always learning</strong>
+
+                                <small>2026</small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <a href="#about" class="scroll-down">
+
+                    <span></span>
+
+                    <small class="fr">Découvrir</small>
+                    <small class="en">Discover</small>
+
+                </a>
+
+            </section>
+
+
+
+            <!-- =============================================
+                 À PROPOS
+            ============================================== -->
+
+            <section class="section about" id="about">
+
+                <div class="container">
+
+                    <div class="section-heading">
+
+                        <p class="section-number">01.</p>
+
+                        <h2>
+                            <span class="fr">À propos de moi</span>
+                            <span class="en">About me</span>
+                        </h2>
+
+                        <div class="heading-line"></div>
+
+                    </div>
+
+
+                    <div class="about-grid">
+
+                        <div class="about-text">
+
+                            <p>
+
+                                <span class="fr">
+                                    Je suis <strong>Koné Mohamed</strong>, un développeur
+                                    Web Front-End passionné par la création d'expériences
+                                    numériques modernes et fonctionnelles.
+                                </span>
+
+                                <span class="en">
+                                    I am <strong>Koné Mohamed</strong>, a Front-End Web
+                                    Developer passionate about creating modern and
+                                    functional digital experiences.
+                                </span>
+
+                            </p>
+
+
+                            <p>
+
+                                <span class="fr">
+                                    Je suis une personne qui apprend rapidement et qui
+                                    s'adapte facilement. Pour moi, chaque jour représente
+                                    une nouvelle opportunité d'apprendre, de progresser
+                                    et de découvrir de nouvelles technologies.
+                                </span>
+
+                                <span class="en">
+                                    I am a fast learner who adapts easily. For me,
+                                    every day represents a new opportunity to learn,
+                                    improve and discover new technologies.
+                                </span>
+
+                            </p>
+
+
+                            <p>
+
+                                <span class="fr">
+                                    Après une formation en <strong>Informatique
+                                    Développeur d'Applications (IDA)</strong>, je souhaite
+                                    continuer à développer mes compétences, notamment
+                                    dans le domaine du <strong>développement web</strong>,
+                                    des <strong>bases de données</strong> et du
+                                    <strong>développement mobile</strong>.
+                                </span>
+
+                                <span class="en">
+                                    After studying <strong>Application Development
+                                    Computing (IDA)</strong>, I want to continue
+                                    developing my skills, especially in
+                                    <strong>web development</strong>,
+                                    <strong>databases</strong> and
+                                    <strong>mobile development</strong>.
+                                </span>
+
+                            </p>
+
+                        </div>
+
+
+                        <div class="about-stats">
+
+                            <div class="stat-card">
+
+                                <span class="stat-number">02+</span>
+
+                                <p>
+                                    <span class="fr">Projets réalisés</span>
+                                    <span class="en">Completed projects</span>
+                                </p>
+
+                            </div>
+
+
+                            <div class="stat-card">
+
+                                <span class="stat-number">12+</span>
+
+                                <p>
+                                    <span class="fr">Compétences</span>
+                                    <span class="en">Skills</span>
+                                </p>
+
+                            </div>
+
+
+                            <div class="stat-card">
+
+                                <span class="stat-number">∞</span>
+
+                                <p>
+                                    <span class="fr">Envie d'apprendre</span>
+                                    <span class="en">Desire to learn</span>
+                                </p>
+
+                            </div>
+
+
+                            <div class="about-code">
+
+                                <span>const</span>
+                                <strong>developer</strong>
+                                <span>=</span>
+
+                                <br>
+
+                                <span>{</span>
+
+                                <br>
+
+                                &nbsp;&nbsp;name:
+                                <em>"Koné Mohamed"</em>,
+
+                                <br>
+
+                                &nbsp;&nbsp;passion:
+                                <em>"Technology"</em>,
+
+                                <br>
+
+                                &nbsp;&nbsp;learning:
+                                <em>true</em>
+
+                                <br>
+
+                                <span>};</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =============================================
+                 COMPÉTENCES
+            ============================================== -->
+
+            <section class="section skills" id="skills">
+
+                <div class="container">
+
+                    <div class="section-heading">
+
+                        <p class="section-number">02.</p>
+
+                        <h2>
+                            <span class="fr">Mes compétences</span>
+                            <span class="en">My skills</span>
+                        </h2>
+
+                        <div class="heading-line"></div>
+
+                    </div>
+
+
+                    <p class="section-intro">
+
+                        <span class="fr">
+                            Des compétences acquises à travers ma formation,
+                            mes projets personnels et mon apprentissage autodidacte.
+                        </span>
+
+                        <span class="en">
+                            Skills acquired through my education, personal projects
+                            and self-learning.
+                        </span>
+
+                    </p>
+
+
+                    <div class="skills-grid">
+
+
+                        <!-- WEB -->
+
+                        <article class="skill-category">
+
+                            <div class="skill-category-title">
+
+                                <span>&lt;/&gt;</span>
+
+                                <h3>
+                                    <span class="fr">Développement Web</span>
+                                    <span class="en">Web Development</span>
+                                </h3>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>HTML</span>
+                                    <strong>90%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 90%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>CSS</span>
+                                    <strong>75%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 75%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <strong>20%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 20%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>PHP</span>
+                                    <strong>65%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 65%"></span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- PROGRAMMATION -->
+
+                        <article class="skill-category">
+
+                            <div class="skill-category-title">
+
+                                <span>{ }</span>
+
+                                <h3>
+                                    <span class="fr">Programmation</span>
+                                    <span class="en">Programming</span>
+                                </h3>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>Pascal</span>
+                                    <strong>65%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 65%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>C</span>
+                                    <strong>65%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 65%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>Visual Basic</span>
+                                    <strong>65%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 65%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>IA</span>
+                                    <strong>70%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 70%"></span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- SYSTÈMES -->
+
+                        <article class="skill-category">
+
+                            <div class="skill-category-title">
+
+                                <span>◈</span>
+
+                                <h3>
+                                    <span class="fr">Systèmes & Outils</span>
+                                    <span class="en">Systems & Tools</span>
+                                </h3>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>MERISE</span>
+                                    <strong>85%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 85%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+
+                                    <span class="fr">Base de données</span>
+                                    <span class="en">Databases</span>
+
+                                    <strong>55%</strong>
+
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 55%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+                                    <span>Microsoft Word</span>
+                                    <strong>65%</strong>
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 65%"></span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <div class="skill-info">
+
+                                    <span class="fr">Windows / Office</span>
+                                    <span class="en">Windows / Office</span>
+
+                                    <strong>90%</strong>
+
+                                </div>
+
+                                <div class="progress">
+                                    <span style="--progress: 90%"></span>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =============================================
+                 PROJETS
+            ============================================== -->
+
+            <section class="section projects" id="projects">
+
+                <div class="container">
+
+                    <div class="section-heading">
+
+                        <p class="section-number">03.</p>
+
+                        <h2>
+                            <span class="fr">Mes projets</span>
+                            <span class="en">My projects</span>
+                        </h2>
+
+                        <div class="heading-line"></div>
+
+                    </div>
+
+
+                    <p class="section-intro">
+
+                        <span class="fr">
+                            Voici quelques projets qui représentent mon parcours
+                            et mon évolution dans le développement web.
+                        </span>
+
+                        <span class="en">
+                            Here are some projects that represent my journey
+                            and growth in web development.
+                        </span>
+
+                    </p>
+
+
+                    <div class="projects-grid">
+
+
+                        <!-- PROJET 1 -->
+
+                        <article class="project-card">
+
+                            <div class="project-image">
+
+                                <img
+                                    src="images/logo.png"
+                                    alt="Projet Restaurant Tech">
+
+                                <div class="project-overlay">
+                                    <span>01</span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="project-content">
+
+                                <div class="project-top">
+
+                                    <p class="project-type">
+                                        <span class="fr">Site vitrine</span>
+                                        <span class="en">Showcase website</span>
+                                    </p>
+
+                                    <span class="project-number">01</span>
+
+                                </div>
+
+
+                                <h3>Restaurant Tech</h3>
+
+
+                                <p>
+
+                                    <span class="fr">
+                                        Site web vitrine moderne pour un restaurant
+                                        proposant une cuisine africaine moderne.
+                                    </span>
+
+                                    <span class="en">
+                                        A modern showcase website for a restaurant
+                                        offering modern African cuisine.
+                                    </span>
+
+                                </p>
+
+
+                                <div class="technologies">
+
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+
+                                </div>
+
+
+                                <a href="https://momo8464.github.io/Restaurant-Tech/"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="project-link">
+
+                                    <span class="fr">Voir le projet</span>
+                                    <span class="en">View project</span>
+
+                                    <span>↗</span>
+
+                                </a>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- PROJET 2 -->
+
+                        <article class="project-card">
+
+                            <div class="project-image">
+
+                                <img
+                                    src="images/logo computeur store.png"
+                                    alt="Projet Computer Store">
+
+                                <div class="project-overlay">
+                                    <span>02</span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="project-content">
+
+                                <div class="project-top">
+
+                                    <p class="project-type">
+                                        <span class="fr">Site responsive</span>
+                                        <span class="en">Responsive website</span>
+                                    </p>
+
+                                    <span class="project-number">02</span>
+
+                                </div>
+
+
+                                <h3>Computer Store</h3>
+
+
+                                <p>
+
+                                    <span class="fr">
+                                        Site web responsive dédié à la présentation
+                                        et à la vente de matériel informatique.
+                                    </span>
+
+                                    <span class="en">
+                                        A responsive website dedicated to the
+                                        presentation and sale of computer equipment.
+                                    </span>
+
+                                </p>
+
+
+                                <div class="technologies">
+
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+
+                                </div>
+
+
+                                <a href="https://momo8464.github.io/computer-store/"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="project-link">
+
+                                    <span class="fr">Voir le projet</span>
+                                    <span class="en">View project</span>
+
+                                    <span>↗</span>
+
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="github-projects">
+
+                        <p>
+
+                            <span class="fr">
+                                Retrouvez également mes autres travaux sur
+                            </span>
+
+                            <span class="en">
+                                You can also find my other work on
+                            </span>
+
+                        </p>
+
+
+                        <a href="https://github.com/momo8464"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            GitHub →
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =============================================
+                 PARCOURS
+            ============================================== -->
+
+            <section class="section journey" id="journey">
+
+                <div class="container">
+
+                    <div class="section-heading">
+
+                        <p class="section-number">04.</p>
+
+                        <h2>
+                            <span class="fr">Mon parcours</span>
+                            <span class="en">My journey</span>
+                        </h2>
+
+                        <div class="heading-line"></div>
+
+                    </div>
+
+
+                    <div class="timeline">
+
+
+                        <!-- 2026 -->
+
+                        <article class="timeline-item">
+
+                            <div class="timeline-date">2026</div>
+
+                            <div class="timeline-content">
+
+                                <span class="timeline-dot"></span>
+
+                                <p class="timeline-label">
+
+                                    <span class="fr">Formation</span>
+                                    <span class="en">Education</span>
+
+                                </p>
+
+
+                                <h3>
+                                    BTS — IDA
+                                </h3>
+
+
+                                <h4>
+
+                                    <span class="fr">
+                                        Informatique Développeur d'Applications
+                                    </span>
+
+                                    <span class="en">
+                                        Application Development Computing
+                                    </span>
+
+                                </h4>
+
+
+                                <p>
+
+                                    <span class="fr">
+                                        Admissibilité au BTS en IDA en 2026.
+                                        Formation orientée vers le développement
+                                        d'applications et les technologies
+                                        informatiques.
+                                    </span>
+
+                                    <span class="en">
+                                        Eligible for the BTS degree in Application
+                                        Development Computing in 2026.
+                                    </span>
+
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- 2023 -->
+
+                        <article class="timeline-item">
+
+                            <div class="timeline-date">2023</div>
+
+                            <div class="timeline-content">
+
+                                <span class="timeline-dot"></span>
+
+                                <p class="timeline-label">
+                                    Formation
+                                </p>
+
+
+                                <h3>Baccalauréat D</h3>
+
+
+                                <p>
+
+                                    <span class="fr">
+                                        Obtention du Baccalauréat série D.
+                                    </span>
+
+                                    <span class="en">
+                                        Obtained the Scientific Baccalaureate
+                                        (Series D).
+                                    </span>
+
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <!-- AUTODIDACTE -->
+
+                        <article class="timeline-item">
+
+                            <div class="timeline-date">∞</div>
+
+                            <div class="timeline-content">
+
+                                <span class="timeline-dot"></span>
+
+                                <p class="timeline-label">
+
+                                    <span class="fr">Autodidacte</span>
+                                    <span class="en">Self-learning</span>
+
+                                </p>
+
+
+                                <h3>
+
+                                    <span class="fr">
+                                        Apprentissage continu
+                                    </span>
+
+                                    <span class="en">
+                                        Continuous learning
+                                    </span>
+
+                                </h3>
+
+
+                                <p>
+
+                                    <span class="fr">
+                                        Développement constant de mes compétences
+                                        grâce à des projets personnels, des recherches
+                                        et l'apprentissage de nouvelles technologies.
+                                    </span>
+
+                                    <span class="en">
+                                        Constant development of my skills through
+                                        personal projects, research and learning
+                                        new technologies.
+                                    </span>
+
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =============================================
+                 CONTACT
+            ============================================== -->
+
+            <section class="section contact" id="contact">
+
+                <div class="contact-glow"></div>
+
+                <div class="container contact-container">
+
+                    <p class="section-number">05.</p>
+
+
+                    <h2>
+
+                        <span class="fr">
+                            Construisons quelque chose
+                            <span>ensemble.</span>
+                        </span>
+
+                        <span class="en">
+                            Let's build something
+                            <span>together.</span>
+                        </span>
+
+                    </h2>
+
+
+                    <p class="contact-description">
+
+                        <span class="fr">
+                            Vous avez un projet, une idée ou souhaitez simplement
+                            échanger ? N'hésitez pas à me contacter.
+                        </span>
+
+                        <span class="en">
+                            Do you have a project, an idea, or simply want to
+                            connect? Feel free to contact me.
+                        </span>
+
+                    </p>
+
+
+                    <div class="contact-links">
+
+
+                        <a href="mailto:konemhd2003@gmail.com"
+                           class="contact-card">
+
+                            <span class="contact-icon">@</span>
+
+                            <div>
+
+                                <small>Email</small>
+
+                                <strong>
+                                    konemhd2003@gmail.com
+                                </strong>
+
+                            </div>
+
+                        </a>
+
+
+
+                        <a href="tel:+2250584643499"
+                           class="contact-card">
+
+                            <span class="contact-icon">☎</span>
+
+                            <div>
+
+                                <small>
+
+                                    <span class="fr">Téléphone</span>
+                                    <span class="en">Phone</span>
+
+                                </small>
+
+                                <strong>
+                                    +225 05 84 64 34 99
+                                </strong>
+
+                            </div>
+
+                        </a>
+
+
+
+                        <a href="https://github.com/momo8464"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact-card">
+
+                            <span class="contact-icon">&lt;/&gt;</span>
+
+                            <div>
+
+                                <small>GitHub</small>
+
+                                <strong>
+                                    github.com/momo8464
+                                </strong>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+
+                    <a href="mailto:konemhd2003@gmail.com"
+                       class="btn btn-primary contact-button">
+
+                        <span class="fr">Envoyez-moi un message</span>
+                        <span class="en">Send me a message</span>
+
+                        <span>→</span>
+
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+
+        <!-- =============================================
+             FOOTER
+        ============================================== -->
+
+        <footer class="footer">
+
+            <div class="container footer-content">
+
+                <a href="#home" class="logo">
+                    <span>&lt;</span>KM<span>/&gt;</span>
+                </a>
+
+
+                <p>
+
+                    © 2026 Koné Mohamed —
+
+                    <span class="fr">
+                        Tous droits réservés.
+                    </span>
+
+                    <span class="en">
+                        All rights reserved.
+                    </span>
+
+                </p>
+
+
+                <a href="#home" class="back-top"
+                   aria-label="Retour en haut">
+
+                    ↑
+
+                </a>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
